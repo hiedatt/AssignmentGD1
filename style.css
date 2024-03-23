@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.header-main{
+    text-align: center;
+    background: white;
+}
+.nav-main{
+    background: rgb(183, 18, 18);
+    height: 40px;
+}
+.nav-main ul li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+}
+.nav-main ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+.nav-main ul li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    margin-top: 5px;
+    width: 100%;
+    
+}
+.search{
+    background:rgb(183, 18, 18);
+    height: 50px;
+    width: 100%;
+}
+.frm-text{
+    height: 30px;
+    width: 800px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.btn-text{
+    color: black;
+    height: 30px;
+    background: white;
+    font-size: 15px;
+    width: 100px;
+}
+.cate {
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 15px;
+    flex-basis: 70%;
+}
+.pro-item{
+    height: 300px;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px 0;
+}
+h4{
+    margin-bottom: 10px;
+}
+.giagoc{
+    text-decoration: line-through;
+}
+.sale{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.new{
+    grid-template-columns: 1fr;
+    border: 1px solid #000;
+    height: 320px;
+}
+.img{
+    float: left;
+    padding: 20px;
+}
+.title a{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
